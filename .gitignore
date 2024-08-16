@@ -1,2 +1,4 @@
-jiu_annotations.json
+assets/annotations.json
+assets/coco_model
 tmp/
+env/

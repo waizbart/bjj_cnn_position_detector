@@ -1,6 +1,12 @@
 {
     "cSpell.words": [
+        "imread",
+        "imshow",
+        "keypoint",
         "keypoints",
-        "movenet"
+        "movenet",
+        "ultralytics",
+        "YOLO",
+        "yolov"
     ]
 }

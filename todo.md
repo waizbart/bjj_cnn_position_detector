@@ -1,3 +1,13 @@
-[OK] Modelo para classificar os keypoints está bom, porém o modelo movenet não detecta os keypoints da forma esperada, tentar usar a COCO https://docs.ultralytics.com/datasets/pose/coco/#citations-and-acknowledgments
+[X] Encontrar melhor modelo de detecção de pose (Coco VS Movenet) \
+    - [X] Testar Coco
+    - [X] Testar Movenet
+    - [X] Comparar resultados
 
-Detecções com coco são bem classificadas, porém movenet desempenha melhor em identificar keypoints
+    Resultados:
+    - Coco é mais lento, porém muito mais preciso. Talvez isso pode ser melhorado com otimizações das diferentes versões do modelo.
+
+[ ] Testar Coco com imagens de jiu jitsu e comparar com keypoints das annotations
+
+[ ] Treinar modelo Coco com imagens e keypoints do dataset de jiu jitsu
+
+[ ] Treinar modelo para classificar posições de jiu jitsu a partir dos keypoints

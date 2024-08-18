@@ -6,6 +6,8 @@
     Resultados:
     - Coco é mais lento, porém muito mais preciso. Talvez isso pode ser melhorado com otimizações das diferentes versões do modelo.
 
+[X] Explorar dataset de jiu jitsu e entender como os keypoints são anotados
+
 [ ] Testar Coco com imagens de jiu jitsu e comparar com keypoints das annotations
 
 [ ] Treinar modelo Coco com imagens e keypoints do dataset de jiu jitsu

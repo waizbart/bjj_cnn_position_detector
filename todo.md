@@ -8,8 +8,14 @@
 
 [X] Explorar dataset de jiu jitsu e entender como os keypoints são anotados
 
-[ ] Testar Coco com imagens de jiu jitsu e comparar com keypoints das annotations
+[X] Testar Coco com imagens de jiu jitsu e comparar com keypoints das annotations
+    - Obs: Resultados são semelhantes, porém não exatamente iguais, provavelmente o autor do dataset usou outro modelo
 
-[ ] Treinar modelo Coco com imagens e keypoints do dataset de jiu jitsu
+[X] Treinar modelo para classificar posições de jiu jitsu a partir dos keypoints
+    - Resultado: +90% de precisão
 
-[ ] Treinar modelo para classificar posições de jiu jitsu a partir dos keypoints
+[X] Usar modelo de detecção de keypoints "estado da arte" ViTPose baseado em transformers
+
+[ ] Otimizar processo
+
+[ ] Estabelecer novos métodos de coleta de dados e treinamento

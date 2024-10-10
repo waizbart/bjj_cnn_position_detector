@@ -2,3 +2,4 @@ assets/annotations.json
 assets/coco_model
 tmp/
 env/
+.venv/

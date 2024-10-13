@@ -1,5 +1,6 @@
 KEYPOINTS_NUM = 17
 LABELS = {'standing': 0, 'takedown': 1, 'open_guard': 2, 'half_guard': 3, 'closed_guard': 4, '5050_guard': 5, 'side_control': 6, 'mount': 7, 'back': 8, 'turtle': 9}
+LABELS_VALUES = ['standing', 'takedown', 'open_guard', 'half_guard', 'closed_guard', '5050_guard', 'side_control', 'mount', 'back', 'turtle']
 BODY_PARTS = ["nose", "left eye", "right eye", "left ear", "right ear", "left shoulder", "right shoulder", "left elbow", "right elbow", "left wrist", "right wrist", "left hip", "right hip", "left knee", "right knee", "left ankle", "right ankle"]
 PLAYERS_NUM = 2
 CONNECTIONS = [

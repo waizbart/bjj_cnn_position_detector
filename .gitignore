@@ -3,3 +3,5 @@ assets/coco_model
 tmp/
 env/
 .venv/
+scrapper/cookies.json
+dataset

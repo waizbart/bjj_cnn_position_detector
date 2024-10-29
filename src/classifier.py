@@ -4,7 +4,7 @@ import tensorflow as tf
 
 class PoseClassifier:
     def __init__(self):
-        self.model = tf.keras.models.load_model("./models/pose_classifier/v1.h5")
+        self.model = tf.keras.models.load_model("./models/pose_classifier/v5.keras")
 
     def predict(self, detections):
         if len(detections) == 0:

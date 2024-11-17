@@ -16,6 +16,6 @@
 
 [X] Usar modelo de detecção de keypoints "estado da arte" ViTPose baseado em transformers
 
-[ ] Otimizar processo
+[X] Otimizar processo
 
-[ ] Estabelecer novos métodos de coleta de dados e treinamento
+[X] Estabelecer novos métodos de coleta de dados e treinamento

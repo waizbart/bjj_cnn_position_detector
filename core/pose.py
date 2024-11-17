@@ -1,7 +1,5 @@
 import os
-from PIL import Image
 import cv2
-import numpy as np
 from models.vitpose.easy_ViTPose import VitInference
 from huggingface_hub import hf_hub_download
 
@@ -18,7 +16,7 @@ class KeypointDetector:
 
         self.filename = f'{self.model_type}/{self.dataset}/vitpose-{self.model_size}-{self.dataset}{self.ext}'
         self.filename_yolo = f'yolov10{self.yolo_size}{self.ext_yolo}'
-        self.yolo_path = os.path.join(os.path.dirname(__file__), 'models/vitpose', 'yolo_models', self.filename_yolo)
+        self.yolo_path = os.path.join('models/vitpose', 'yolo_models', self.filename_yolo)
         self.is_sequential = is_sequential
 
         print(f'Downloading model JunkyByte/easy_ViTPose/{self.filename}')

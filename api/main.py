@@ -29,5 +29,13 @@ pose_service = PoseService()
 
 app.state.pose_service = pose_service
 
+
+@app.get("/", summary="Verificar status da api")
+def hello():
+    return {
+        "message": "Hello from bjj IA api"
+    }
+
+
 app.include_router(analyze_router)
 app.include_router(websocket_router)

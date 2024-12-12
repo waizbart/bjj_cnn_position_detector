@@ -30,4 +30,4 @@ RUN wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10x
 
 EXPOSE 8000
 
-CMD ["gunicorn", "api.main:app", "--workers", "1", "--worker-class", "uvicorn.workers.UvicornH11Worker", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "api.main:app", "--workers", "4", "--worker-class", "uvicorn.workers.UvicornH11Worker", "--bind", "0.0.0.0:8000"]

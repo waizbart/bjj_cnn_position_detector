@@ -24,8 +24,7 @@ class KeypointDetector:
             repo_id='JunkyByte/easy_ViTPose', filename=self.filename)
 
         self.model = VitInference(model_path, self.yolo_path, self.model_size,
-                                  dataset=self.dataset, yolo_size=640,
-                                  yolo_confidence_threshold=0.2, is_video=is_sequential)
+                                  dataset=self.dataset, yolo_size=640, is_video=is_sequential)
 
     def detect_keypoints(self, img):
         frame_keypoints = self.model.inference(img)

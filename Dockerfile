@@ -24,9 +24,9 @@ COPY requirements.txt requirements_gpu.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir -r requirements_gpu.txt
 
-RUN wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10x.pt -P ./models/vitpose/yolo_models
-
 COPY . .
+
+RUN wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10x.pt -P ./models/vitpose/yolo_models
 
 EXPOSE 8000
 

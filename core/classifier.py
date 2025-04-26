@@ -32,4 +32,9 @@ class PoseClassifier:
 
         predictions = self.model.predict(keypoints)
         
-        return [LABELS_VALUES[np.argmax(prediction)] for prediction in predictions]
+        results = []
+        for prediction in predictions:
+            prob_dict = {LABELS_VALUES[i]: float(prediction[i]) for i in range(len(LABELS_VALUES))}
+            results.append(prob_dict)
+            
+        return results[0] if len(results) == 1 else results
